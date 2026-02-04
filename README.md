@@ -41,18 +41,6 @@ Process summary:
 - Deployed a real-time endpoint
 - Tested inference with a sample input
 
-Endpoint:
-`arn:aws:sagemaker:REGION:ACCOUNT:endpoint/ENDPOINT_NAME`  ← replace
-
-Tested input:
-`Age=60, Chol=300, BP=140, Max HR=120, ST depression=1.5, Vessels=2`
-
-Output:
-`Prob=0.68 (high risk)`  ← replace with real output
-
-Latency:
-`XX ms`  ← replace with measured latency
-
 ### Screenshots
 
 - Deployable model:
